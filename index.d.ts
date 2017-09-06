@@ -1,5 +1,5 @@
 declare module 'phaser-percent-bar' {
-    export default class HealthBar {
+    export default class HealthBar extends Phaser.Sprite {
         constructor (opts: {
             game: Phaser.Game,
             host: Phaser.Sprite,
